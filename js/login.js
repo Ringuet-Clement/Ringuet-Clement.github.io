@@ -59,8 +59,11 @@ function createlogin() {
                     const data = await response.json();
                     localStorage.setItem('jwt', data.token);
                     drawdata(data)
+               } else {
+                    alert("Wrong Password or Email.");
                }
           } catch (error) {
+
                alert("Wrong Password or Email.");
           }
      });
