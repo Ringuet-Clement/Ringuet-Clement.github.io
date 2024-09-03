@@ -1,0 +1,48 @@
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 0;
+     background-color: #2e2e2e;
+     overflow-x: auto;
+}
+
+#loginForm {
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     bottom: 45%;
+}
+
+#ratio {
+     background-color: #565555;
+     margin: 20px;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+     border-radius: 10px;
+}
+
+#auditratio {
+     margin: 10px;
+     font-family: 'Raleway', sans-serif;
+}
+
+#ringsContainer {
+     display: flex;
+     flex-wrap: wrap;
+     /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+}
+
+#ringsContainer>div {
+     flex: 1 1 20%;
+     /* Chaque élément prendra environ 20% de la largeur du conteneur */
+     box-sizing: border-box;
+     /* Inclut les marges et les bordures dans la largeur totale */
+     padding: 10px;
+     /* Espacement interne, ajustez selon vos besoins */
+}
+
+p {
+     color: white
+}
